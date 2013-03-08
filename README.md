@@ -12,9 +12,9 @@ every(testcases,function(index, testcase){
   describe("each Test Case",function(){
     it("should be a string",function(){
       expect(typeof testcase).toEqual("string");
-      })
-    })  
-  };
+    })
+  })  
+};
 ```
 
 There's more
