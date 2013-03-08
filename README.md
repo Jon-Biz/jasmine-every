@@ -19,7 +19,7 @@ every(testcases,function(index, testcase){
 
 There's more
 ------------
-Say something is broken, and you want to temporarily step through one your testcases without dismantling test data, or the test suite to do so. Simply give the ```every``` function the pointer to the test you want to run, and it will run just that one. To run the third case in your array of test cases:
+Say something is broken, and you want to temporarily step through just one your testcases without your dismantling test data, or the test suite, to do so. Simply give the ```every``` function the array position of the case you do want to run and it will run just that. To run the third case in your array of test cases:
 
 ```javascript
 every(testcase, 2,function(index,testcase){
@@ -27,7 +27,7 @@ every(testcase, 2,function(index,testcase){
 });
 ```
 
-It can also take an array, if there are a bunch of tests you want to run. So, to iterate through the first three cases:
+It can also take an array, if there are a specific set of tests you want to run. So, to iterate through the first three cases:
 
 
 ```javascript
