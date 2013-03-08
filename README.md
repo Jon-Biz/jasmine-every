@@ -3,7 +3,7 @@ jasmine-every
 
 A helper function for Jasmine to allow one to iterate a test or suite through an array of test case data.
 
-You pass ```each``` an array of test data, along with a callback containing tests and suites, and every iterates through the array, applying the tests to each case of data. To wit:
+You pass ```every``` an array of test data, along with a callback containing tests and suites, and every iterates through the array, applying the tests to each case of data. To wit:
 
 ```javascript
 var testcases = ["dataset_one","dataset_two","dataset_three"]
