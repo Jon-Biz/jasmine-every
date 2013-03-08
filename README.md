@@ -39,4 +39,4 @@ every(testcase,[0,1,2],function(index,testcase){
 
 Installation
 ------------
-Include this whereever you are including your jasmine files.
+Include this wherever you are including your jasmine files.
